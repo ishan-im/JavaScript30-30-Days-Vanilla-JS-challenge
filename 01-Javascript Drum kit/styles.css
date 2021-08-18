@@ -1,0 +1,48 @@
+body{
+    background-image: url(images/background.jpg);
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 80px;
+}
+.drum-button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.drum {
+    display: flex;
+    outline: none;
+    background-color: transparent;
+    border: 5px solid black;
+    font-size: 2rem;
+    line-height: 2;
+    font-weight: 500;
+    color: white;
+    text-shadow: 0 0 .5rem black;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+  }
+  
+ 
+
+  .button-onclick{
+    box-shadow: 0 0 1rem #ffc600;
+    border-color: #ffc600;
+    opacity: 0.5;
+  }
+
+  @media only screen and (max-width:600px){
+      .drum-button{
+          justify-content: space-evenly;
+      }
+  }

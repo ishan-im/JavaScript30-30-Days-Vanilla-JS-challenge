@@ -1,0 +1,54 @@
+body{
+    background-image: url(images/background.jpg);
+
+}
+
+#date{
+    position: relative;
+    margin: 20px auto;
+    text-align: center;
+    top: 40px;
+}
+
+.clock-background{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 15px solid white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    margin:85px auto;
+}
+
+
+.hand{
+    height: 100px;
+    width:4px;
+}
+
+.hour-hand{
+   position: relative;
+   top: 40px;
+   transform: rotate(0deg);
+   transform-origin: bottom;
+   background-color: black;
+}
+
+.minutes-hand{
+    position: relative;
+    top: 40px;
+    transform: rotate(180deg);
+    transform-origin: top;
+    background-color:firebrick;
+}
+
+.seconds-hand{
+position: relative;
+bottom: 60px;
+transform: rotate(180deg);
+transform-origin: top;
+background-color: blue;
+}
